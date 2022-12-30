@@ -1,0 +1,97 @@
+#middle
+{
+ padding:20px;
+ padding-top:0px;
+ margin:10px 100px 0px 100px;
+ background-color:#104E8B;
+ border-radius:20px;
+ height:700px;
+}
+h1
+{
+  background:-webkit-linear-gradient(#7B68EE,#1874CD);
+  font-size:18px;
+  font-weight:700;
+  color:white;
+  padding:5px;
+  border-radius:5px;
+  text-transform:capitalize;
+  max-width:450px;
+  position:relative;
+  left:300px;
+}
+#otp_form_id
+{
+  position:relative;
+  top:20px;
+  left:250px;
+  border:#1E90FF thin solid;
+  max-width:600px;
+  padding:50px;
+  text-transform:capitalize;  
+  background:-webkit-linear-gradient(#1E90FF,#1874CD);
+  color:white;  
+  border-radius:10px;
+  font-weight:500;
+  font-family:form;
+  
+}
+#server_side_warning
+{
+  position:relative;
+  top:-20px;
+  border:black solid thin;
+  background:-webkit-linear-gradient(#FF0000,#CD0000);
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  display:none;
+  font-weight:700;
+  
+}
+#otp_form_id input
+{
+  color:#8B8682;
+  min-width:250px;
+  border-radius:5px;
+  
+}
+#otp_form_id input:hover
+{
+ border-color:green;
+}
+#what
+{
+ color:red;
+ border:white solid thin;
+ background-color:white;
+ text-transform:lowercase;
+}
+#submit_button
+{
+ padding:3px 5px 0px 5px;
+ background:-webkit-linear-gradient(#696969,#000000);
+ border-radius:5px;
+ font-size:15px;
+ position:relative;
+ top:10px;
+}
+#submit_button:hover
+{
+  position:relative;
+  top:15px;
+}
+#top_warning
+{
+   background:-webkit-linear-gradient(#FF0000,#CD0000);
+  border-radius:5px;
+  padding:5px;
+  font-weight:600;
+  display:none;
+}
+@font-face
+{
+  font-family:form;
+  src:url(fonts/Roboto-Italic.ttff);
+
+}

@@ -1,0 +1,153 @@
+#middle
+{
+ padding:20px;
+ padding-top:0px;
+ margin:10px 100px 0px 100px;
+ background-color:#104E8B;
+ border-radius:20px;
+ height:700px;
+}
+h1
+{
+  background:-webkit-linear-gradient(#7B68EE,#1874CD);
+  font-size:18px;
+  font-weight:700;
+  color:white;
+  padding:5px;
+  border-radius:5px;
+  text-transform:capitalize;
+  max-width:410px;
+  position:relative;
+  left:300px;
+}
+#signin_form_id
+{
+  position:relative;
+  top:20px;
+  left:250px;
+  border:#1E90FF thin solid;
+  max-width:600px;
+  padding:50px;
+  text-transform:capitalize;  
+  background:-webkit-linear-gradient(#1E90FF,#1874CD);
+  color:white;  
+  border-radius:10px;
+  font-weight:500;
+  font-family:form;
+  
+}
+#server_side_warning
+{
+  position:relative;
+  top:-20px;
+  border:black solid thin;
+  background:-webkit-linear-gradient(#FF0000,#CD0000);
+  color:white;
+  padding:10px;
+  border-radius:5px;
+  display:none;
+  font-weight:700;
+  
+}
+#ser_id
+{
+ text-transform:lowercase;
+ color:blue;
+ font-weight:500;
+}
+#signin_form_id input
+{
+  color:#8B8682;
+  min-width:250px;
+  border-radius:5px;
+  
+}
+#signin_form_id input:hover
+{
+ border-color:green;
+}
+#userid
+{
+ position:relative;
+ left:20px;
+}
+.gen
+{
+ min-width:40px !IMPORTANT;
+ max-width:10px;
+}
+#gender
+{
+ position:relative;
+ left:40px;
+ font-family:form;
+ font-weight:600;
+}
+#date_of_birth
+{
+ position:relative;
+ left:-12px;
+
+}
+textarea
+{
+ color:#8B8682;
+ max-width:280px;
+ min-width:280px;
+ max-height:50px;
+ min-height:50px;
+ position:relative;
+ top:25px;
+ border-radius:5px;
+}
+textarea:hover
+{
+ border-color:green;
+}
+#tc
+{
+ text-decoration:underline;
+ font-size:12px;
+}
+#tc input
+{
+ min-width:10px !IMPORTANT;
+ max-width:10px;
+}
+#tc a
+{
+ color:black;
+}
+#submit_button
+{
+ padding:3px 5px 0px 5px;
+ background:-webkit-linear-gradient(#696969,#000000);
+ border-radius:5px;
+ font-size:15px;
+ position:relative;
+ top:10px;
+}
+#submit_button:hover
+{
+  position:relative;
+  top:15px;
+}
+.form_filed_warning
+{
+  background:-webkit-linear-gradient(#FF0000,#CD0000);
+  border-radius:5px;
+  padding:5px;
+  font-weight:600;
+  display:none;
+}
+#address_warning
+{
+  position:relative;
+  top:20px; 
+}
+@font-face
+{
+  font-family:form;
+  src:url(fonts/Roboto-Italic.ttff);
+
+}

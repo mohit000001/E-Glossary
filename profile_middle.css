@@ -1,0 +1,164 @@
+#middle
+{
+ padding:0px;
+ padding-top:0px;
+ margin:10px 100px 0px 100px;
+ background-color:#E0E0E0;
+ border-radius:20px;
+ height:700px;
+}
+#profile_head
+{
+ border-radius:20px 20px 0px 0px;
+ background:-webkit-linear-gradient(#7B68EE,#1874CD);
+ padding:10px;
+ 
+}
+#htitle
+{
+ font-size:30px;
+ font-weight:900;
+ position:relative;
+ color:white;
+ text-transform:capitalize;
+ left:300px;
+}
+#hb1
+{
+ font-size:15px;
+ font-weight:900;
+ position:relative;
+ color:white;
+ text-transform:capitalize;
+ top:10px;
+}
+marquee
+{
+ font-size:13px;
+ font-weight:700;
+ position:relative;
+ color:white;
+ text-transform:capitalize;
+ top:10px;
+}
+#profile_text
+{
+  max-width:770px;
+  min-width:200px;
+  background-color:white;
+  top:-300px;
+  left:400px;
+  color:#4876FF;
+  position:relative;
+  padding:20px;
+  padding-bottom:8px;
+  font-weight:600;
+  font-size:12px;
+  word-spacing:3px;
+}
+#profile_contain
+{
+ position:relative;
+ top:-300px;
+ padding:10px 200px 20px 50px;
+ background:-webkit-linear-gradient(#1E90FF,#1874CD);
+ color:black;
+ text-transform:capitalize;
+ border-radius:10px;
+ height:315px;
+}
+.profile_heads
+{
+  font-weight:600;
+  color:white;
+}
+#addr
+{
+ border:white thin solid;
+ padding:3px;
+ display:inline-block;
+ max-width:300px;
+ position:relative;
+ top:10px;
+ color:black;
+ min-width:300px;
+ min-height:50px;
+ max-height:50px;
+ font-weight:500;
+  border-radius:5px;
+}
+#chan_add
+{
+ color:blue;
+ background-color:white;
+ font-weight:700;
+ border-radius:3px;
+ position:relative;
+ top:-10px;
+ left:20px;
+ padding:2px;
+ padding-bottom:0px;
+}
+#chan_add:hover
+{
+ cursor:pointer;
+ top:-5px;
+ 
+}
+#address_warning
+{
+  background:-webkit-linear-gradient(#FF0000,#CD0000);
+  border-radius:5px;
+  padding:5px;
+  font-weight:600;
+  font-size:11px;
+  position:relative;
+  top:10px;
+  display:none;
+}
+#passw
+{
+ border:white thin solid;
+ display:inline-block;
+ max-width:300px;
+ position:relative;
+ color:black;
+ min-width:300px;
+ font-weight:500;
+ border-radius:5px;
+}
+#chan_pass
+{
+ color:blue;
+ background-color:white;
+ font-weight:700;
+ border-radius:3px;
+ position:relative;
+ left:20px;
+ padding:2px;
+ padding-bottom:0px;
+}
+#chan_pass:hover
+{
+ cursor:pointer;
+ top:5px;
+ 
+}
+#pass_de
+{
+ color:orange;
+ position:relative;
+ top:5px;
+}
+#password_warning
+{
+  background:-webkit-linear-gradient(#FF0000,#CD0000);
+  border-radius:5px;
+  padding:5px;
+  font-weight:600;
+  font-size:11px;
+  position:relative;
+  top:5px;
+  display:none;
+  
+}

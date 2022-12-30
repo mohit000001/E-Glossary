@@ -1,0 +1,144 @@
+#middle
+{
+ padding:20px;
+ padding-top:0px;
+ margin:10px 100px 0px 100px;
+ background-color:#E0E0E0;
+ border-radius:20px;
+}
+.product_cat
+{
+  border:#FF8C00 thin solid;
+  background-image:url(product_cat_back.jpg);
+  margin-bottom:50px;
+  border-radius:0px 0px 20px 20px;
+}
+.product_cat ul li
+{
+  display:inline-block;
+  padding-left:50px;
+  padding-right:50px;
+  color:white;
+  
+}
+.product_cat ul li:hover
+{
+ background-color:#CD6600;  
+ position:relative;
+ top:5px;
+ cursor:pointer;
+}
+.product
+{
+ clear:both;
+ margin-bottom:50px;
+ border-bottom:solid thin black;
+ padding-bottom:50px;
+}
+.product_image
+{
+   float:left;
+   border-radius:10px;
+}		
+.product_name
+{
+  clear:both;
+  font-size:18px;
+  font-weight:700;
+  color:#7171C6;
+  text-transform:capitalize;
+  position:relative;
+  left:20px;
+}
+.quantity
+{
+  position:relative;
+  left:80px;
+  font-size:13px;
+}
+.product_dis
+{
+  display:inline-block;
+  max-width:400px;
+  position:relative;
+  left:20px;
+  color:#848484;
+}
+.product_stoock
+{
+  position:relative;
+  left:20px;
+  padding:2px;
+  padding-top:0px;
+  padding-bottom:0px;
+  padding-right:0px;
+  background-image:url(cart_back.jpg);
+  border:solid 3px #7171C6;
+  border-radius:2px;
+  color:white;
+  font-weight:700;
+  max-width:154px;
+  display:inline-block;
+}
+.stook_num
+{
+  border:solid 2px white;
+  border-right-width:10px;
+  background-color:white;
+  color:#7171C6;
+  padding:3px;
+}
+.off_rate
+{
+  position:relative;
+  left:40px;
+  color:red;
+  text-decoration:underline;
+  font-weight:600;
+}
+.product_price
+{
+  position:relative;
+  left:20px;
+  left:60px;
+  color:red;
+  text-decoration:underline;
+  font-weight:600;
+}
+.add_to_cart_button
+{
+  position:relative;
+  left:250px;
+  top:-50px;
+  padding:8px;
+  padding-bottom:0px;
+  padding-top:2px;
+  background-image:url(cart_back.jpg);
+  border:solid 3px #7171C6;
+  border-radius:5px;
+  color:white;
+  font-weight:700;
+}
+.add_to_cart_button:hover
+{
+ top:-45px;
+}
+#login_warning
+{
+  background-color:red;
+  color:white;
+  font-size:13px;
+  font-weight:700;
+  display:none;
+  position:relative;
+  left:250px;
+  top:-40px;
+  max-width:600px;
+  padding:5px;
+  border-radius:5px;
+}
+#login_warning a
+{
+  font-size:12px;
+  font-weight:500;
+}

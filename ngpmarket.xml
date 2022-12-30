@@ -1,0 +1,431 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+- phpMyAdmin XML Dump
+- version 4.0.9
+- http://www.phpmyadmin.net
+-
+- Host: 127.0.0.1
+- Generation Time: Aug 21, 2008 at 08:42 PM
+- Server version: 5.6.14
+- PHP Version: 5.5.6
+-->
+
+<pma_xml_export version="1.0" xmlns:pma="http://www.phpmyadmin.net/some_doc_url/">
+    <!--
+    - Structure schemas
+    -->
+    <pma:structure_schemas>
+        <pma:database name="market" collation="latin1_swedish_ci" charset="latin1">
+            <pma:table name="login_system">
+                CREATE TABLE `login_system` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `login` text,
+                  `userid` text,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="orders">
+                CREATE TABLE `orders` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `userid` text,
+                  `pro_qua` text,
+                  `address` text,
+                  `total` text,
+                  `pay_status` text,
+                  `pay_method` text,
+                  `dev_status` text,
+                  `order_date` datetime DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=18 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="products">
+                CREATE TABLE `products` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `product_name` text,
+                  `product_dis` text,
+                  `product_price` int(11) DEFAULT NULL,
+                  `product_avail` text,
+                  `off_price` text,
+                  `product_cat` text,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=22 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="profile">
+                CREATE TABLE `profile` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `name` text,
+                  `userid` text,
+                  `password` text,
+                  `gender` text,
+                  `birth` date DEFAULT NULL,
+                  `tc` text,
+                  `address` text,
+                  `ac_date` datetime DEFAULT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=latin1;
+            </pma:table>
+            <pma:table name="temp_profile">
+                CREATE TABLE `temp_profile` (
+                  `id` int(11) NOT NULL AUTO_INCREMENT,
+                  `name` text NOT NULL,
+                  `userid` text NOT NULL,
+                  `gender` text NOT NULL,
+                  `dob` date NOT NULL,
+                  `address` text NOT NULL,
+                  `password` text NOT NULL,
+                  `tc` text NOT NULL,
+                  PRIMARY KEY (`id`)
+                ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
+            </pma:table>
+        </pma:database>
+    </pma:structure_schemas>
+
+    <!--
+    - Database: 'ngpmarket'
+    -->
+    <database name="market">
+        <!-- Table login_system -->
+        <table name="login_system">
+            <column name="id">17</column>
+            <column name="login">bfasda6s4f5sd64g5dfghf15h45fgh15fg1hb,mohit@yahoo.com</column>
+            <column name="userid">mohit@yahoo.com</column>
+        </table>
+        <table name="login_system">
+            <column name="id">19</column>
+            <column name="login">bfasda6s4f5sd64g5dfghf15h45fgh15fg1hb,mohit@yahoo.com</column>
+            <column name="userid">mohit@yahoo.com</column>
+        </table>
+        <table name="login_system">
+            <column name="id">21</column>
+            <column name="login">bfasda6s4f5sd64g5dfghf15h45fgh15fg1hb,mohit@yahoo.com</column>
+            <column name="userid">mohit@yahoo.com</column>
+        </table>
+        <!-- Table orders -->
+        <table name="orders">
+            <column name="id">2</column>
+            <column name="userid">raj167@gmail.com</column>
+            <column name="pro_qua">,1 kg gehu=4,1 kg rise=5</column>
+            <column name="address">bulding no 20 pune maharastra india 330084</column>
+            <column name="total">313</column>
+            <column name="pay_status">done</column>
+            <column name="pay_method">offline</column>
+            <column name="dev_status">dilver successfully</column>
+            <column name="order_date">2008-08-21 09:57:14</column>
+        </table>
+        <table name="orders">
+            <column name="id">3</column>
+            <column name="userid">raj167@gmail.com</column>
+            <column name="pro_qua">1 kg sugar=15,</column>
+            <column name="address">bulding no 20 pune maharastra india 330084</column>
+            <column name="total">1284</column>
+            <column name="pay_status">payment returned</column>
+            <column name="pay_method">offline</column>
+            <column name="dev_status">order cancelled</column>
+            <column name="order_date">2008-08-21 10:03:40</column>
+        </table>
+        <table name="orders">
+            <column name="id">4</column>
+            <column name="userid">raj167@gmail.com</column>
+            <column name="pro_qua">1 kg sugar=15</column>
+            <column name="address">bulding no 20 pune maharastra india 330084</column>
+            <column name="total">1284</column>
+            <column name="pay_status">payment returned</column>
+            <column name="pay_method">online</column>
+            <column name="dev_status">order cancelled</column>
+            <column name="order_date">2008-08-21 10:05:11</column>
+        </table>
+        <table name="orders">
+            <column name="id">5</column>
+            <column name="userid">raj167@gmail.com</column>
+            <column name="pro_qua">1 kg mung dal=1</column>
+            <column name="address">bulding no 20 pune maharastra india 330084</column>
+            <column name="total">176</column>
+            <column name="pay_status">done</column>
+            <column name="pay_method">offline</column>
+            <column name="dev_status">dilver successfully</column>
+            <column name="order_date">2008-08-21 10:06:39</column>
+        </table>
+        <table name="orders">
+            <column name="id">9</column>
+            <column name="userid">raj167@gmail.com</column>
+            <column name="pro_qua">,1 kg gehu=5,1 kg rise=13</column>
+            <column name="address">bulding no 20 pune maharastra india 330084</column>
+            <column name="total">695</column>
+            <column name="pay_status">done</column>
+            <column name="pay_method">offline</column>
+            <column name="dev_status">dilver successfully</column>
+            <column name="order_date">2008-08-21 10:11:29</column>
+        </table>
+        <table name="orders">
+            <column name="id">14</column>
+            <column name="userid">raj167@gmail.com</column>
+            <column name="pro_qua">bajaj hair oli=15,dove shampo=7,parashoot hair oli=6</column>
+            <column name="address">bulding no 20 pune maharastra india 330084</column>
+            <column name="total">1034</column>
+            <column name="pay_status">payment returned</column>
+            <column name="pay_method">offline</column>
+            <column name="dev_status">order cancelled</column>
+            <column name="order_date">2008-08-21 10:21:13</column>
+        </table>
+        <table name="orders">
+            <column name="id">15</column>
+            <column name="userid">raj167@gmail.com</column>
+            <column name="pro_qua">1 kg gehu=1,1 kg rise=7,500gm red leban tea=14,500gm red leban tea=14,1 kg sugar=15,1 kg mung dal=7,1 kg rise=7,dettole=5,vimbar=13,dettole=5,wheel=14,fasiya face soap=6,harpick=4,parashoot hair oli=1,bhakti agarbatee=14,parle-g=14</column>
+            <column name="address">sfsdbulding no 20 sadfsfsfsdfsdf</column>
+            <column name="total">10314</column>
+            <column name="pay_status">done</column>
+            <column name="pay_method">online</column>
+            <column name="dev_status">dilver successfully</column>
+            <column name="order_date">2008-08-22 01:30:52</column>
+        </table>
+        <table name="orders">
+            <column name="id">16</column>
+            <column name="userid">raj167@gmail.com</column>
+            <column name="pro_qua">1 kg gehu=1,1 kg rise=7,500gm red leban tea=14,500gm red leban tea=14,1 kg sugar=15,1 kg mung dal=7,1 kg rise=7,dettole=5,vimbar=13,dettole=5,wheel=14,fasiya face soap=6,harpick=4,parashoot hair oli=1,bhakti agarbatee=14,parle-g=14</column>
+            <column name="address">sfsdbulding no 20 sadfsfsfsdfsdf</column>
+            <column name="total">10314</column>
+            <column name="pay_status">done</column>
+            <column name="pay_method">offline</column>
+            <column name="dev_status">dilver successfully</column>
+            <column name="order_date">2008-08-22 01:32:11</column>
+        </table>
+        <table name="orders">
+            <column name="id">17</column>
+            <column name="userid">raj167@gmail.com</column>
+            <column name="pro_qua">1 kg gehu=1,1 kg rise=1</column>
+            <column name="address">bulding no 167 munakjsjd dsfsdf</column>
+            <column name="total">67</column>
+            <column name="pay_status">done</column>
+            <column name="pay_method">online</column>
+            <column name="dev_status">dilver successfully</column>
+            <column name="order_date">2008-08-22 02:11:08</column>
+        </table>
+        <!-- Table products -->
+        <table name="products">
+            <column name="id">2</column>
+            <column name="product_name">1 kg gehu</column>
+            <column name="product_dis">pure shudh gehu of india.no any dout to buy.</column>
+            <column name="product_price">22</column>
+            <column name="product_avail">480</column>
+            <column name="off_price">26</column>
+            <column name="product_cat">kitchen</column>
+        </table>
+        <table name="products">
+            <column name="id">3</column>
+            <column name="product_name">1 kg rise</column>
+            <column name="product_dis">pure quality rise of india and directly coming from farm.no any dout to buy.</column>
+            <column name="product_price">45</column>
+            <column name="product_avail">744</column>
+            <column name="off_price">60</column>
+            <column name="product_cat">kitchen</column>
+        </table>
+        <table name="products">
+            <column name="id">4</column>
+            <column name="product_name">1 kg mung dal</column>
+            <column name="product_dis">haldiram's orignal mung dal best product in market</column>
+            <column name="product_price">109</column>
+            <column name="product_avail">120</column>
+            <column name="off_price">120</column>
+            <column name="product_cat">kitchen</column>
+        </table>
+        <table name="products">
+            <column name="id">5</column>
+            <column name="product_name">1 kg sugar</column>
+            <column name="product_dis">pure sugar no any health dout.no any dout to buy.</column>
+            <column name="product_price">42</column>
+            <column name="product_avail">1680</column>
+            <column name="off_price">48</column>
+            <column name="product_cat">kitchen</column>
+        </table>
+        <table name="products">
+            <column name="id">6</column>
+            <column name="product_name">500gm red leban tea</column>
+            <column name="product_dis">orignal tea of assam must buy best product ever.</column>
+            <column name="product_price">250</column>
+            <column name="product_avail">444</column>
+            <column name="off_price">280</column>
+            <column name="product_cat">kitchen</column>
+        </table>
+        <table name="products">
+            <column name="id">7</column>
+            <column name="product_name">dettole</column>
+            <column name="product_dis">a brand product of india which nearly used by 90.02% people</column>
+            <column name="product_price">25</column>
+            <column name="product_avail">181</column>
+            <column name="off_price">30</column>
+            <column name="product_cat">bathroom</column>
+        </table>
+        <table name="products">
+            <column name="id">8</column>
+            <column name="product_name">wheel</column>
+            <column name="product_dis">a best larget product of india which nearly used by 90.02% people</column>
+            <column name="product_price">10</column>
+            <column name="product_avail">323</column>
+            <column name="off_price">13</column>
+            <column name="product_cat">bathroom</column>
+        </table>
+        <table name="products">
+            <column name="id">9</column>
+            <column name="product_name">vimbar</column>
+            <column name="product_dis">a shoap for house use which nearly used by 90.02% people</column>
+            <column name="product_price">14</column>
+            <column name="product_avail">452</column>
+            <column name="off_price">17</column>
+            <column name="product_cat">bathroom</column>
+        </table>
+        <table name="products">
+            <column name="id">10</column>
+            <column name="product_name">fasiya face soap</column>
+            <column name="product_dis">a very good shoap used only for face washing</column>
+            <column name="product_price">42</column>
+            <column name="product_avail">74</column>
+            <column name="off_price">47</column>
+            <column name="product_cat">bathroom</column>
+        </table>
+        <table name="products">
+            <column name="id">11</column>
+            <column name="product_name">harpick</column>
+            <column name="product_dis">a smooth product used for toilate cleaning</column>
+            <column name="product_price">76</column>
+            <column name="product_avail">36</column>
+            <column name="off_price">84</column>
+            <column name="product_cat">bathroom</column>
+        </table>
+        <table name="products">
+            <column name="id">12</column>
+            <column name="product_name">fortune</column>
+            <column name="product_dis">this is a food oli used healthly for house food</column>
+            <column name="product_price">88</column>
+            <column name="product_avail">166</column>
+            <column name="off_price">93</column>
+            <column name="product_cat">room</column>
+        </table>
+        <table name="products">
+            <column name="id">13</column>
+            <column name="product_name">m. d. h. marchi</column>
+            <column name="product_dis">a powerfull masala packect</column>
+            <column name="product_price">12</column>
+            <column name="product_avail">848</column>
+            <column name="off_price">17</column>
+            <column name="product_cat">room</column>
+        </table>
+        <table name="products">
+            <column name="id">14</column>
+            <column name="product_name">m. d. h. haldi</column>
+            <column name="product_dis">a powerfull masala packect</column>
+            <column name="product_price">10</column>
+            <column name="product_avail">666</column>
+            <column name="off_price">12</column>
+            <column name="product_cat">room</column>
+        </table>
+        <table name="products">
+            <column name="id">15</column>
+            <column name="product_name">m. d. h. dhaniya</column>
+            <column name="product_dis">a powerfull masala packect</column>
+            <column name="product_price">10</column>
+            <column name="product_avail">785</column>
+            <column name="off_price">12</column>
+            <column name="product_cat">room</column>
+        </table>
+        <table name="products">
+            <column name="id">16</column>
+            <column name="product_name">horlex</column>
+            <column name="product_dis">a strong healthy product for better protine power</column>
+            <column name="product_price">30</column>
+            <column name="product_avail">124</column>
+            <column name="off_price">35</column>
+            <column name="product_cat">room</column>
+        </table>
+        <table name="products">
+            <column name="id">17</column>
+            <column name="product_name">parashoot hair oli</column>
+            <column name="product_dis">hair oli used to maintain the healthy hair</column>
+            <column name="product_price">15</column>
+            <column name="product_avail">209</column>
+            <column name="off_price">18</column>
+            <column name="product_cat">house</column>
+        </table>
+        <table name="products">
+            <column name="id">18</column>
+            <column name="product_name">dove shampo</column>
+            <column name="product_dis">a powerfull shampo used for healthy hair</column>
+            <column name="product_price">62</column>
+            <column name="product_avail">228</column>
+            <column name="off_price">75</column>
+            <column name="product_cat">house</column>
+        </table>
+        <table name="products">
+            <column name="id">19</column>
+            <column name="product_name">bajaj hair oli</column>
+            <column name="product_dis">the hair oli in india ever</column>
+            <column name="product_price">34</column>
+            <column name="product_avail">410</column>
+            <column name="off_price">55</column>
+            <column name="product_cat">house</column>
+        </table>
+        <table name="products">
+            <column name="id">20</column>
+            <column name="product_name">bhakti agarbatee</column>
+            <column name="product_dis">a sented shmooth agarbtee for worship</column>
+            <column name="product_price">4</column>
+            <column name="product_avail">1008</column>
+            <column name="off_price">12</column>
+            <column name="product_cat">house</column>
+        </table>
+        <table name="products">
+            <column name="id">21</column>
+            <column name="product_name">parle-g</column>
+            <column name="product_dis">parle -g g means genius</column>
+            <column name="product_price">5</column>
+            <column name="product_avail">517</column>
+            <column name="off_price">8</column>
+            <column name="product_cat">house</column>
+        </table>
+        <!-- Table profile -->
+        <table name="profile">
+            <column name="id">6</column>
+            <column name="name">rajshighaniya</column>
+            <column name="userid">raj167@gmail.com</column>
+            <column name="password">rajisking</column>
+            <column name="gender">male</column>
+            <column name="birth">2004-11-11</column>
+            <column name="tc">accepted</column>
+            <column name="address">bulding no 1 dfgdf dfg dfgd fdg dfg</column>
+            <column name="ac_date">2008-08-21 10:38:23</column>
+        </table>
+        <table name="profile">
+            <column name="id">7</column>
+            <column name="name">mohitswami</column>
+            <column name="userid">mohit167@gmail.com</column>
+            <column name="password">dgdfgdfg</column>
+            <column name="gender">male</column>
+            <column name="birth">1997-02-11</column>
+            <column name="tc">accepted</column>
+            <column name="address">fgdf dfgdfg fgfd dgdfg dfgdf dfgdfg</column>
+            <column name="ac_date">2008-08-21 11:24:38</column>
+        </table>
+        <table name="profile">
+            <column name="id">8</column>
+            <column name="name">sdfsdf</column>
+            <column name="userid">mohit@yahoo.com</column>
+            <column name="password">mohitlove</column>
+            <column name="gender">male</column>
+            <column name="birth">1997-11-11</column>
+            <column name="tc">accepted</column>
+            <column name="address">pl.no 576 , hiwri nagar near power house nagpur, maharastra india 4400445</column>
+            <column name="ac_date">2008-08-22 01:35:42</column>
+        </table>
+        <table name="profile">
+            <column name="id">9</column>
+            <column name="name">gfhjg ghj hg</column>
+            <column name="userid">rohit@gmail.com</column>
+            <column name="password">h fgh f</column>
+            <column name="gender">male</column>
+            <column name="birth">1997-12-11</column>
+            <column name="tc">accepted</column>
+            <column name="address">fcghfd dfgh fdx hdfghdf gdfh  fg</column>
+            <column name="ac_date">2008-08-22 02:15:44</column>
+        </table>
+        <!-- Table temp_profile -->
+    </database>
+</pma_xml_export>

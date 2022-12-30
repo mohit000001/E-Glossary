@@ -1,0 +1,88 @@
+#middle
+{
+ padding:0px;
+ padding-top:0px;
+ margin:10px 100px 0px 100px;
+ background-color:#E0E0E0;
+ border-radius:20px;
+ height:700px;
+ overflow-y:scroll;
+ overflow-x:hidden;
+}
+#orders_head
+{
+ border-radius:20px 20px 0px 0px;
+ background:-webkit-linear-gradient(#7B68EE,#1874CD);
+ padding:10px;
+ 
+}
+#htitle
+{
+ font-size:30px;
+ font-weight:900;
+ position:relative;
+ color:white;
+ text-transform:capitalize;
+ left:300px;
+}
+table
+{
+  position:relative;
+  left:20px;
+  background:-webkit-linear-gradient(left,#1E90FF,#1874CD);
+}
+ol
+{
+ position:relative;
+ left:20px;
+}
+th,td
+{
+padding:10px;
+margin:0px;
+border:thin solid black;
+color:white;
+text-transform:capitalize;
+}
+.product_details
+{
+ min-width:200px;
+ max-width:200px;
+ max-height:150px;
+ min-height:62px;
+ display:inline-block;
+ overflow-y:auto;
+ overflow-x:hidden;
+}
+.cancell_button
+{
+ padding:3px 5px 0px 5px;
+ background:-webkit-linear-gradient(#696969,#000000);
+ border-radius:5px;
+ font-size:13px;
+ position:relative;
+ top:5px;
+}
+.cancell_button:hover
+{
+  position:relative;
+  top:10px;
+}
+.total
+{
+ color:#FF0000;
+ font-weight:700;
+ text-decoration:underline;
+}
+#no_his
+{
+ font-size:20px;
+ text-transform:capitalize;
+ color:#4876FF;
+ font-weight:900;
+ text-decoration:underline;
+ position:relative;
+ top:50px;
+ left:300px;
+
+}

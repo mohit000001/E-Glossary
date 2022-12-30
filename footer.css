@@ -1,0 +1,96 @@
+#footer_bottom
+{
+  padding:50px;
+  border-top:white 5px solid;
+  border-radius:10px 10px 0px 0px;
+  background-color:#104E8B;
+  min-height:300px;
+  max-height:300px;
+}
+.contact_us
+{
+ color:white;
+ font-size:15px;
+ font-weight:500;
+ font-family:mohit1;
+}
+.heading_of_contact_us
+{
+  font-size:20px;
+  border-bottom:#282828 solid 2px;
+  padding:0px 90px 12px 10px;
+  text-transform:capitalize;
+  color:#282828;
+  font-weight:700;
+}
+.socail_links
+{
+  position:relative;
+  top:-265px;
+  left:400px;
+}
+.socail_lines_header
+{
+  font-size:20px;
+  border-bottom:#282828 solid 2px;
+  padding:0px 0px 12px 10px;
+  max-width:300px;
+  text-transform:capitalize;
+  color:#282828;
+  font-weight:700;
+}
+.socail_links img
+{
+  border-radius:5px;
+  margin-left:30px;
+}
+.socail_img
+{
+  position:relative;
+  top:50px;
+  left:-30px;
+}
+.socail_links img:hover
+{
+  position:relative;
+  top:5px;
+}
+.about_us
+{
+  position:relative;
+  top:-330px;
+  left:900px;
+  color:white;
+ font-size:15px;
+ font-weight:500;
+ max-width:300px;
+  font-family:mohit;
+}
+.about_us_header
+{
+  font-size:20px;
+  border-bottom:#282828 solid 2px;
+  padding:0px 0px 12px 10px;
+  max-width:300px;
+  text-transform:capitalize;
+  color:#282828;
+  font-weight:700;
+}
+#copright_info
+{
+ position:absolute;
+ bottom:10px;
+ left:450px;
+ color:#FF0000;
+ font-size:15px;
+ font-weight:500;
+ text-transform:capitalize;
+}
+@font-face
+{
+ font-family:mohit;
+ src:url(Alegreya-BoldItalic.ttff);
+ font-family:mohit1;
+ src:url(SourceSerifPro-Light.ttff);
+ 
+}
